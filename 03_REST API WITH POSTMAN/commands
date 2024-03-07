@@ -1,0 +1,13 @@
+mkdir express-demo
+cd express-demo
+
+(Install node js software)
+
+Commands:
+npm i express (include node_modules, package-lock.json, package.json)
+npm install
+npm init --yes
+npm i -g nodemon
+nodemon index.js
+
+set port=5000 (change port 3000 or 5000)
