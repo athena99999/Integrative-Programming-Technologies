@@ -1,0 +1,54 @@
+### GET all EMPLOYEE
+GET http://localhost:3000/employee/ 
+
+### POST EMPLOYEE
+POST http://localhost:3000/employee
+Content-Type: application/json
+
+{
+    "first_name":"Karen",
+    "last_name": "Doe",
+    "phone_number": "123456"
+}
+
+### GET SPECIFIC
+GET http://localhost:3000/employee/66060ab1281fdbcd924aa1cb
+
+### PATCH BY ID
+PATCH http://localhost:3000/employee/66060eaaf7f8980145457c7a
+Content-Type: application/json
+
+{
+    "first_name": "daniel"
+}
+
+### DELETE BY ID
+DELETE http://localhost:3000/employee/66060cea7f57187dcdca2afd
+
+
+
+### GET all TASK
+GET http://localhost:3000/task/ 
+
+### POST TASK
+POST http://localhost:3000/task
+Content-Type: application/json
+
+{
+    "task_name":"Prelim",
+    "date": "03-21-2024"
+}
+
+### GET SPECIFIC TASK
+GET http://localhost:3000/task/
+
+### PATCH BY ID
+PATCH http://localhost:3000/task/65fb4b7a76e8e2b25f46a807
+Content-Type: application/json
+
+{
+    "task_name": "code nga naman"
+}
+
+### DELETE BY ID
+DELETE http://localhost:3000/task/65fb4b7a76e8e2b25f46a807
